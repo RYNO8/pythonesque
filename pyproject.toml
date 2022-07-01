@@ -11,4 +11,5 @@ classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
 
 [project.urls]
-Home = "https://stock90975.github.io/pythonesque/"
+Homepage = "https://github.com/stock90975/pythonesque"
+Documentation = "https://stock90975.github.io/pythonesque/"
