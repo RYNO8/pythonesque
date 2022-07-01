@@ -42,7 +42,7 @@ for count in consecutive_numbers(10, 1):
 print("Blast off!")
 ```
 
-*For more examples, please refer to the Documentation*
+*For more examples, please refer to the [Documentation](https://stock90975.github.io/pythonesque/series.html)*
 
 
 ## Contributing
