@@ -60,6 +60,6 @@ Please make sure to update tests as appropriate.
 
 """
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 from .series import consecutive_numbers
