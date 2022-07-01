@@ -32,9 +32,9 @@ pip install pythonesque
 Example:
 
 ```python
-from pythonesque.series import consecutive_numbers
-# or just:
-#from pythonesque import consecutive_numbers
+from pythonesque import consecutive_numbers
+# or specify sub-modules:
+# from pythonesque.series import consecutive_numbers
 
 # much less confusing to non-programmers than "range(10, 0, -1)"
 for count in consecutive_numbers(10, 1):

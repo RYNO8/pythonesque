@@ -7,7 +7,9 @@ def consecutive_numbers(start: int, end: int = None):
     Examples
     --------
     ```python
-    from pythonesque.series import consecutive_numbers
+    from pythonesque import consecutive_numbers
+    # or specify sub-modules:
+    # from pythonesque.series import consecutive_numbers
 
     # 1,2,3 ... 10
     consecutive_numbers(10)
