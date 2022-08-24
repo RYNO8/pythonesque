@@ -1,6 +1,6 @@
 def consecutive_numbers(start: int, end: int = None):
     """
-    Returns consecutive numbers
+    Returns consecutive numbers as a list
 
     Python range() in disguise
 
@@ -49,29 +49,13 @@ def consecutive_numbers(start: int, end: int = None):
         # end not specified,
         # eg. consecutive_numbers(10)
         # assume start=1, end=start+1
-        return range(1, start + 1)
+        return list(range(1, start + 1))
 
     if end > start:
         # start, end are specified, count up
         # eg. consecutive_numbers(1, 10)
-        return range(start, end + 1)
+        return list(range(start, end + 1))
     else:
         # start, end are specified, count down
         # eg. consecutive_numbers(10, 1)
-        return range(start, end - 1, -1)
-
-
-# if __name__ == "__main__":
-#    for i in consecutive_numbers(10):
-#        print(i)
-#    print()
-#
-#    for i in consecutive_numbers(1, 10):
-#        print(i)
-#    print()
-#
-#    for i in consecutive_numbers(10, 1):
-#        print(i)
-#    print()
-#
-#    # print(consecutive_numbers(1,10))
+        return list(range(start, end - 1, -1))
