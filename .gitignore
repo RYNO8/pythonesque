@@ -1,7 +1,10 @@
 # project specific
-# .gitignore
-unused/
+.gitignore
+pyproject.toml
+
+# unused/
 venv/
+.autoenv
 
 # vi tmp files
 *.swp
@@ -77,7 +80,6 @@ instance/
 
 # Scrapy stuff:
 .scrapy
-
 # Sphinx documentation
 docs/_build/
 
@@ -146,3 +148,4 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
